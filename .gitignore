@@ -19,7 +19,10 @@ env/
 
 # Large Datasets and data dumps (do not commit 300MB data dumps)
 golden_dataset.csv
+hackernoon_subset.csv
+*.csv.gz
 !reports/*.csv
+!outputs/*.csv
 *.jsonl
 *.parquet
 *.pq
